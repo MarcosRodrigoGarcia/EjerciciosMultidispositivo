@@ -1,0 +1,134 @@
+h1. Encabezado
+
+h2. Encabezado
+
+h3. Encabezado
+
+h4. Encabezado
+
+h5. Encabezado
+
+h6. Encabezado
+
+
+h1. Encabezado Secondary text
+
+h2. Encabezado Secondary text
+
+h3. Encabezado Secondary text
+
+
+En un párrafo normal, podemos imitar el estilo de un encabezado, manteniendo el texto en línea.
+
+
+Destacar un párrafo: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+
+Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a.
+
+
+Con la etiqueta "mark" podemos resaltar texto. También podemos marcar texto como eliminado o insertado, útil para mostrar anotaciones o versiones de un documento. El subrayado tradicional se delimita con la etiqueta "u". Para negrillas, utilizamos "strong", y para itálica, "em". 
+
+
+Podemos utilizar clases CSS incluidas en Bootstrap para alinear texto:
+
+A la izquierda, "text-left"
+
+Centrado, "text-center"
+
+A la derecha, "text-right"
+
+Justificado, "text-justify": Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+
+Evitar rompimiento de línea, "text-nowrap": Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. 
+
+
+Bootstrap incluye clases CSS para transformar la capitalización (mayúsculas/minúsculas):
+Mostrar texto en minúsculas: "text-lowercase".
+Mostrar texto en mayúsculas: "text-uppercase".
+Mostrar texto con inicial en mayúsculas: "text-capitalize".
+
+
+Podemos usar "address" para indicar información de contacto sobre un objeto o el documento completo:
+
+Homer J. Simpson
+ 742 Evergreen Terrace
+ Springfield
+T: (123) 456-7890
+M: (123) 456-7890
+
+
+
+Para delimitar texto citado, podemos utilizar "blockquote" alrededor de cualquier contenido HTML. Usualmente es un párrafo delimitado con la etiqueta "p": 
+
+
+En algún lugar de la mancha, de cuyo nombre no quiero acordarme...
+
+También podemos hacer referencia a la fuente o autor de una cita con un "footer" dentro de la misma:
+
+
+En algún lugar de la mancha, de cuyo nombre no quiero acordarme...
+
+— Miguel de Cervantes en El Quijote.
+
+Y por último, utilizar la clase "blockquote-reverse" para alinear la cita a la derecha:
+
+
+En algún lugar de la mancha, de cuyo nombre no quiero acordarme...
+
+Miguel de Cervantes en El Quijote. —
+
+
+Para listas, podemos utilizar las tradicionales "ol" (lista sin orden) y "ul" (lista ordenada):
+•Lisa
+•Bart
+•Maggie
+1.Springfield
+2.Shelbyville
+
+En caso de necesitar una lista sin viñetas o numeración, podemos usar la clase CSS "list-unstyled":
+Lisa
+Bart
+Maggie
+
+O incluso colocar los elementos de la lista en línea con la clase "list-inline":
+Lisa
+ Bart
+ Maggie
+ 
+Podemos utilizar las listas de descripción "dl", con "dt" (término) y "dd" (significado/definición):
+
+Euismod
+
+Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
+
+Donec id elit non mi porta gravida at eget metus.
+
+Malesuada porta
+
+Etiam porta sem malesuada magna mollis euismod.
+
+Y también colocarlas en modo horizontal, con la clase "dl-horizontal":
+
+Euismod
+
+Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit. 
+
+Donec id elit non mi porta gravida at eget metus. 
+
+Malesuada porta
+
+Etiam porta sem malesuada magna mollis euismod. 
+
+
+Para mostrar fragmentos de código, podemos utilizar:
+•La etiqueta "code" para delimitar código "en línea": <section> (podemos continuar con texto).
+•La etiqueta "pre" (y opcionalmente, seguida de "code") para bloques completos de texto: 
+aptitude update
+aptitude upgrade
+
+
+•Si queremos representar algo que el usuario debe introducir en el teclado (como una combinación de teclas, por ejemplo), utilizamos "kbd": Ctrl + Alt + Supr 
+•Manteniendo el principio semántico de HTML5, si queremos expresar variables (por ejemplo, como parte de una fórmula, utilizamos "var": c2 = a2 + b2 
+•Y para delimitar ejemplos de salida de comandos o programas, utilizamos "samp": Estado actual: 2 actualizaciones [+2]. 
+
+En caso de querer mostrar código que pueda incluir caracteres especiales para HTML, como etiquetas, signos de "mayor que" o "menor que", se recomienda utilizar la sintaxis de códigos o nombres de entidades. 

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            /* CSS Document */
+            /* HTML5 Doctor Reset */
+            article, aside, details, figcaption, figure,
+            footer, header, hgroup, menu, nav, section {
+                display: block;
+            }
+            html{
+                overflow-x:hidden;}
+            body{
+                background-color: #FFFFFF;
+                color: #000000;
+                font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+                font-size: 1rem;
+                margin: 0;
+                padding: 0;
+                position:relative;
+                width:960px;}
+            header{
+                background: #252525;
+                padding: 15px 0;
+                width:960px;} 
+            header h1{
+                font-weight: 800;
+                color:#fff;
+                text-shadow:0 1px 2px #444;
+                font-size: 2rem;  
+                margin: 0;
+                padding: 10px 10px; 
+            }
+            .content{
+                clear:both;
+                padding: 10px 10px; 
+                width:960px;} 
+            .content-columns {
+                
+                width:960;} 
+
+            .content-column-left h2,
+            .content-column-center h2,
+            .content-column-right h2{
+                font-size:1.8rem;} 
+            .content-column-left {
+                clear:left;
+                float: left;
+                padding: 10px 10px; 
+                width: 300px; 
+            }
+            .content-column-center{
+                float: left;
+                padding: 10px 10px; 
+                width: 300px;}
+            .content-column-right {
+                float: left;
+                padding: 10px 10px; 
+                width: 300px; 
+            }
+            #footer{
+                padding:40px 0;
+                background: #3a536b;
+                clear:both;
+                width:960px; 
+                margin: 10px 0;
+            } 
+        </style>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/atom-one-dark-reasonable.min.css">
+    
+    <body>
+        <header>
+            <h1>Fixed Layout</h1>
+        </header>
+        <section class="content-columns">
+            <aside class="content-column-left">
+                <h2>Left Block</h2>
+                <p>The fact that you are seeing this page indicates that the website you just visited is either experiencing problems or is undergoing routine maintenance.</p>
+                <p>If you would like to let the administrators of this website know that you've seen this page instead of the page you expected, you should send them e-mail. In general, mail sent to the name "webmaster" and directed to the website's domain should reach the appropriate person.</p>
+            </aside>
+            <aside class="content-column-center">
+                <h2>Center Block</h2>
+                <p>The fact that you are seeing this page indicates that the website you just visited is either experiencing problems or is undergoing routine maintenance.</p>
+                <p>If you would like to let the administrators of this website know that you've seen this page instead of the page you expected, you should send them e-mail. In general, mail sent to the name "webmaster" and directed to the website's domain should reach the appropriate person.</p>
+            </aside>
+            <aside class="content-column-right">
+                <h2>Right Block</h2>
+                <p>The fact that you are seeing this page indicates that the website you just visited is either experiencing problems or is undergoing routine maintenance.</p>
+                <p>If you would like to let the administrators of this website know that you've seen this page instead of the page you expected, you should send them e-mail. In general, mail sent to the name "webmaster" and directed to the website's domain should reach the appropriate person.</p>
+            </aside>
+        </section>
+        <footer id="footer"> </footer>
+
+        <h1>Explicación Ejercicio</h1>
+        <p>Para la realización de este ejercicio simplemente he cambiado las fuentes que estaban en
+            px, por una medida relativa (rem).  Al hacer zoom vemos que la letra aumenta de tamaño (no pasaría con px)
+
+        </p>
+
+        <pre><code class="css">
+            header h1{
+                font-weight: 800;
+                color:#fff;
+                text-shadow:0 1px 2px #444;
+                font-size: 2rem;  
+                margin: 0;
+                padding: 10px 10px; }
+
+            .content-column-right h2{
+                font-size:1.8rem;} 
+                
+            body{
+                background-color: #FFFFFF;
+                color: #000000;
+                font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+                font-size: 1rem;
+                margin: 0;
+                padding: 0;
+                position:relative;
+                width:960px;}        
+                
+        </code></pre>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+    </body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="../bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.css"/>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/atom-one-dark-reasonable.min.css">
+      <style>
+        .color1{
+          background-color: lightcoral;
+        }
+        .color2{
+          background-color: lightgreen;
+        }
+        .color3{
+          background-color: lightsalmon;
+        }
+        h1{
+          background-color: bisque;
+        }
+
+        .color4{
+          background-color: bisque;
+        }
+
+      </style>
+    <title>Ejercicio 2 Bootstrap</title>
+</head>
+<body>
+<div class="container">
+  <h1>Ejercicio 2</h1>
+
+  
+  <div class="row">
+    <h3>1. Fila con 12 elementos</h3>
+    <div class="col-md-1 color1">C1</div>
+    <div class="col-md-1 color1">C2</div>
+    <div class="col-md-1 color1">C3</div>
+    <div class="col-md-1 color1">C4</div>
+    <div class="col-md-1 color1">C5</div>
+    <div class="col-md-1 color1">C6</div>
+    <div class="col-md-1 color1">C7</div>
+    <div class="col-md-1 color1">C8</div>
+    <div class="col-md-1 color1">C9</div>
+    <div class="col-md-1 color1">C10</div>
+    <div class="col-md-1 color1">C11</div>
+    <div class="col-md-1 color1">C12</div>
+    </div>
+    <div class="row">
+      <h3>2. Fila con 4 elementos</h3>
+      <div class="col-md-3 color2">C1</div>
+      <div class="col-md-3 color2">C2</div>
+      <div class="col-md-3 color2">C3</div>
+      <div class="col-md-3 color2">C4</div>
+    </div>
+    <div class="row">
+      <h3>3. Fila con 3 elementos</h3>
+      <div class="col-md-4 color3">C1</div>
+      <div class="col-md-4 color3">C2</div>
+      <div class="col-md-4 color3">C3</div>
+    </div>
+  
+  </div>
+
+
+
+<div class="container color4">
+  <h1>Explicación ejercicio</h1>
+
+</div>
+
+<div class="container">
+  <p> Para este ejercicio simplemente implementamos las filas (row) y las columnas (col). Posteriormente se ajusta automáticamnte pero en vez de a los 970px se apilan cuando
+    la pantalla es menor a 768 px </p>
+
+  <pre><code class="html">
+
+    &ltdiv class="container"&gt
+  &lth1&gtEjercicio 2&lt/h1&gt
+
+  &lth3&gt1. Fila con 12 elementos&lt/h3&gt
+&ltdiv class="row"&gt
+  &ltdiv class="col-md-1 color1"&gtC1&lt/div&gt
+  &ltdiv class="col-md-1 color1"&gtC2&lt/div&gt
+  &ltdiv class="col-md-1 color1"&gtC3&lt/div&gt
+  &ltdiv class="col-md-1 color1"&gtC4&lt/div&gt
+  &ltdiv class="col-md-1 color1"&gtC5&lt/div&gt
+  &ltdiv class="col-md-1 color1"&gtC6&lt/div&gt
+  &ltdiv class="col-md-1 color1"&gtC7&lt/div&gt
+  &ltdiv class="col-md-1 color1"&gtC8&lt/div&gt
+  &ltdiv class="col-md-1 color1"&gtC9&lt/div&gt
+  &ltdiv class="col-md-1 color1"&gtC10&lt/div&gt
+  &ltdiv class="col-md-1 color1"&gtC11&lt/div&gt
+  &ltdiv class="col-md-1 color1"&gtC12&lt/div&gt
+  &lt/div&gt
+  &ltdiv class="row"&gt
+    &ltdiv class="col-md-3 color2"&gtC1&lt/div&gt
+    &ltdiv class="col-md-3 color2"&gtC2&lt/div&gt
+    &ltdiv class="col-md-3 color2"&gtC3&lt/div&gt
+    &ltdiv class="col-md-3 color2"&gtC4&lt/div&gt
+  &lt/div&gt
+  &ltdiv class="row"&gt
+    &ltdiv class="col-md-4 color3"&gtC1&lt/div&gt
+    &ltdiv class="col-md-4 color3"&gtC2&lt/div&gt
+    &ltdiv class="col-md-4 color3"&gtC3&lt/div&gt
+  &lt/div&gt
+
+&lt/div&gt
+
+  </code></pre>
+
+  </div>
+
+
+
+
+    </div>
+    <!-- <script src="../bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/js/jquery.js"></script> -->
+    <script src="../bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+</body>
+</html>
